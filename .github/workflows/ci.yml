@@ -49,7 +49,7 @@ jobs:
       - name: Preinstall
         run: brew install jq
 
-        - name: Test plugin
+      - name: Test plugin
         uses: asdf-vm/actions/plugin-test@v1
         with:
           command: infracost --version
